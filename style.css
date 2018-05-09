@@ -1,0 +1,91 @@
+.header{
+    height: 20vh;
+}
+.header{
+    background-image: url("radiohead_title.png");
+    background-size: 50%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    text-align: center;
+    top: 43%;
+}
+
+.leftside{
+    height: 82vh;
+    width: 100%;
+
+}
+
+.mainbit {
+    height: 82vh;
+}
+
+.rightside{
+    height: 82vh;
+
+
+}
+
+.firstrow{
+    height: 27vh;
+
+
+}
+
+.secondrow{
+    height: 27vh;
+
+
+}
+
+.thirdrow {
+    height: 27vh;
+
+}
+
+body{
+    #background-image: url("./radiohead_logo.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.front{
+    width: 100%;
+    position: absolute;
+}
+
+.back{
+    width: 100%;
+    position: absolute;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+.in_rainbows {
+    width: 90%;
+    display: none;
+}
+
+.radiohead_logo{
+    width: 80%;
+    left: 5%;
+    top: 10%;
+    position: relative;
+}
+.card:hover .in_rainbows{
+    display: inline-block;
+}
+
+.stats_title, .about_link{
+    text-align: center;
+}
