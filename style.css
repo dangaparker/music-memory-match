@@ -1,3 +1,17 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    %background-image: url("./radiohead_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
 .header{
     height: 20vh;
 }
@@ -47,14 +61,7 @@
 
 }
 
-body{
-    #background-image: url("./radiohead_logo.png");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: center center;
-    background-attachment: fixed;
-    z-index: -1;
-}
+
 
 .front{
     width: 100%;
@@ -71,18 +78,19 @@ body{
     height: 100%;
 }
 
-.in_rainbows {
+.album_covers {
     width: 90%;
     display: none;
+    border-radius: 20px;
 }
 
 .radiohead_logo{
     width: 80%;
     left: 5%;
-    top: 10%;
+    top: 2.5vh;
     position: relative;
 }
-.card:hover .in_rainbows{
+.card:hover .album_covers{
     display: inline-block;
 }
 
