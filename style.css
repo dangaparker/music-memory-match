@@ -89,3 +89,7 @@ body{
 .stats_title, .about_link{
     text-align: center;
 }
+.about_link{
+    position: relative;
+    top: 30%;
+}
