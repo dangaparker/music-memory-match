@@ -34,6 +34,10 @@ body{
 
 }
 
+.leftside > * {
+    font-size: 5vmin;
+}
+
 .mainbit {
     height: 82vh;
 }
@@ -80,24 +84,25 @@ body{
 
 .album_covers {
     width: 90%;
-    display: none;
+    display: inline-block;
     border-radius: 20px;
 }
-
-.radiohead_logo{
-    width: 80%;
-    left: 5%;
-    top: 2.5vh;
+.radiohead_logo1 {
+    width: 103%;
+    border-radius: 20px;
     position: relative;
+    right: 2%;
 }
-.card:hover .album_covers{
-    display: inline-block;
-}
+
 
 .stats_title, .about_link{
     text-align: center;
 }
 .about_link{
     position: relative;
-    top: 30%;
+    top: 10%;
+}
+
+.reveal{
+    display: none;
 }
