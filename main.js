@@ -1,3 +1,5 @@
+var game;
+
 $(document).ready(initializeMe);
 
 function initializeMe(){
@@ -8,9 +10,14 @@ function initializeMe(){
     $('.leftside').on('click', 'button', reset);
 
     var audio = document.querySelector('audio');
+    //function()} = new buildTheGame()
+//}
 
+//class buildTheGame {
+//constructor(){
+
+  //  }
 }
-
 
 function shuffleCards(cards){
     var tempCards = [...cards];
