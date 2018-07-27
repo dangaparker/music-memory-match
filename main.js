@@ -91,7 +91,8 @@ function card_clicked(){
             attempts = attempts + 1;
             $('.attemptValue').text(attempts);
 
-            accuracy = match_counter / attempts;
+            accuracy = (match_counter / attempts) * 100;
+            
             accuracyTrunkated = accuracy.toFixed(2);
             $('.accuracyValue').text(accuracyTrunkated + '%');
 
@@ -119,7 +120,7 @@ function card_clicked(){
             attempts = attempts + 1;
             $('.attemptValue').text(attempts);
 
-            accuracy = match_counter / attempts;
+            accuracy = (match_counter / attempts) * 100;
             accuracyTrunkated = accuracy.toFixed(2);
 
             $('.accuracyValue').text(accuracyTrunkated + '%');
